@@ -314,7 +314,7 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-           <hr class="star-dark mb-5"><a target="_blank" href="testes/html5/">
+           <hr class="star-dark mb-5"><a target="_blank" href="testes/htmlcss/html5/">
             <img class="fig-listas" src="img/portfolio/logo-html5.png" alt="">
          <h3 class="mb-5">Exemplo</h3>   </a>
        
@@ -335,7 +335,7 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             
-            <hr class="star-dark mb-5"><a target="_blank" href="testes/css3/">
+            <hr class="star-dark mb-5"><a target="_blank" href="testes/htmlcss/css3/">
             <img class="fig-listas" src="img/portfolio/logo-css3.png" alt="">
 <h3 class="mb-5">Exemplo</h3></a>
          
