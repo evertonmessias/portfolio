@@ -358,7 +358,7 @@
             <hr class="star-dark mb-5">
             <img class="fig-listas" src="img/portfolio/logo-javascript.png" title="JavaScript"><br><br>
             
-<ul class="listas" >
+<ul class="listas js" >
 <li><a href="./testes/js/teste01JS.html">Teste 01 - Janelas</a></li>
 <li><a href="./testes/js/teste02JS.html">Teste 02 - Ex. Média</a></li>
 <li><a href="./testes/js/teste03JS.html">Teste 03 - Eventos</a></li>
