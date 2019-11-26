@@ -1,0 +1,146 @@
+/* *****************************CSS3****************************** */
+
+@charset "UTF-8";
+/*@font-face{font-family: 'minhafonte';src: url("../_fonts/suafonte.otf");}*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+background-color: rgba(220,220,220,0.8);/*background-color: #dcdcdc;*/
+font-family: 'Open Sans';font-size:18px;}
+
+#site{display: block;position: relative;top: 10px;border-radius: 5px;
+background-color: #fff;width: 1000px;margin: 0px auto;margin-bottom: 30px;
+border: 1px solid #000;box-shadow: 0px 0px 10px #000;padding: 15px;}
+
+fieldset{display: block;position: relative;width: 960px;margin: 0px auto;
+background-color: #ddd;margin-bottom: 20px;border-radius: 5px;box-shadow: 2px 2px 5px #000;}
+
+/*------------------------- CABEÇALHO EM 3 PARTES ----------------------- */
+#header1, #header2, #header3{margin: 0 auto; margin-left: 10px; position: relative;display: inline-block;}
+#header1{float: left;width: 145px;}
+#header2{width: 215px;}
+#header3{float: right;width: 570px;top: 40px;left: 50px;}
+
+/*-------------------------FOTO PERFIL---------------------------------- */
+.perfil{              
+position: relative;display: inline-block;
+height: 130px;width: 130px;margin: 5px 5px 5px 5px;box-shadow: 2px 2px 5px #000;
+border: 1px solid #000;border-radius: 5px;}
+
+.perfil img{
+height: 120px;width: 120px;margin-left: 5px;margin-top: 4px}
+
+/*------------------------- SITE NAME ---------------------------------- */
+h1, h2, h3, h4, h5{text-indent: 20px;}
+.sitename a{color:#000;text-decoration: none;}
+.sitename a:hover{color:#aaa;text-decoration: underline;}
+
+/*------------------------- MENU ---------------------------------- */
+nav#menu {display: block;}
+
+nav#menu ul{margin: 0 auto;list-style: none;text-transform: uppercase;}
+
+nav#menu li{width: 110px;text-align: center;font-weight: bold;
+display: inline-block;background-color: #bbb;padding: 10px;margin: 5px;
+transition: background-color .8s;border-radius: 5px;box-shadow: 2px 2px 5px #000;}
+
+nav#menu li:hover{background-color: #808080;}
+nav#menu h1{display: none;}
+nav#menu a{color:black;text-decoration: none;}
+nav#menu a:hover{color:white;}
+
+/*--------------------- CONTEUDOS ------------------------------ */
+
+#home, #tabela, #contato{width: 900px; position: relative;display: block;margin: 0 auto;}
+
+/*--------------------- HOME ------------------------------ */
+
+.logo{                /* referenciar com TAG + Classe */
+position: relative;display: inline-block; /*  CONTAINER PAI */
+height: 200px;width: 150px;margin: 5px 5px 5px 50px;box-shadow: 2px 2px 5px #000;
+border: 1px solid #000;border-radius: 5px;}
+
+.logo img{
+height: 95%;width: 95%;margin-left: 5px;margin-top: 4px}
+
+.logo figcaption{
+opacity: 0;color: #fff;
+position: absolute; /* FILHO ... flutua dentro do seu container: figure */
+top: 0px;text-align: center;font-size: 28px;font-weight: bolder;
+background-color: rgba(0,0,0,.6);width: 100%; height: 100%;
+transition: opacity .8s;}
+
+.logo:hover figcaption{opacity: 1;}
+
+p{text-align: justify;text-indent: 50px;}
+span.enfases{text-decoration: underline;font-weight: bold;}
+
+/*--------------------- TABELA AULAS ------------------------------ */
+
+table#tabelaspec a{color: #000;text-decoration: none;font-weight: bold;}
+table#tabelaspec a:hover{color: #808080;text-decoration: underline;}
+
+table#tabelaspec{
+    position: relative;
+    margin: 0px auto;box-shadow: 2px 2px 5px #000;
+    border: 1px silver solid;width: 600px;
+    border-spacing: 0px;border-radius: 5px;}
+table#tabelaspec th , td{
+    border: 1px #606060 solid;    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;}
+table#tabelaspec td.titulo {font-weight: bold;color:#fff;background-color: #848484;text-align: center;vertical-align: top;}
+table#tabelaspec td.ce{font-weight: bold;color:#fff;background-color: #848484;text-align: right;vertical-align: top;}
+table#tabelaspec td.cd{text-align: left;}
+table#tabelaspec caption{color: #808080;font-size: 30px;font-weight: bold;}
+table#tabelaspec caption span {margin-left: 60px;font-size: 10px;}
+
+/*--------------------- FORM DE CONTATO ------------------------------ */
+
+#contato fieldset{display: block;position: relative;width: 600px;margin: 0px auto;
+background-color: #eee;margin-bottom: 20px;border-radius: 5px;box-shadow: 2px 2px 5px #000;}
+
+#contato legend{font-weight: bold;font-family: 'Open Sans';font-size: 20px;}
+
+#contato #nome,
+#contato #mail,
+#contato #msg {display: block;position: relative;border-radius: 5px;
+                font-family: 'Open Sans';font-size: 20px;margin: 0px auto;width: 550px;}
+
+#contato #botao, #botao2{position: relative;display: inline-block;height: 50px;font-family: 'Open Sans';font-size: 20px;
+                border-radius: 5px;padding: 2px;width: 150px; margin-left: 100px;background-color: #ccc}
+#contato #botao{font-weight: bold;}
+#contato #nome:hover,
+#contato #mail:hover,
+#contato #msg:hover{background-color: #ddd;}
+
+#mensagem, #mensagemOK {position: relative;font-weight: bold;padding: 10px;display: none; 
+         width: 100%;background-color: #ddd;margin: 10px 0 10px 0;
+         border-radius: 5px;text-align: center;font-family: 'Open Sans';font-size: 20px;}
+
+#mensagem{color: #ff0000;}
+#mensagemOK {color:#000;}
+
+
+
+/* ------------------   Footer ------------------------ */
+
+footer{position: relative;display: block;margin: 0 auto;padding-top: 20px;border: 1px solid #aaa;
+      border-radius: 5px; margin-top: 30px;width: 1000px;height: 50px;background-color: #ddd;text-align: center;}
+
+
+/* ------------------   Mobile   ------------------------ */
+@media (max-width: 720px) {/* Para dispositivos Mobile */
+body{font-size: 35px;}
+#header1{top: 60px;}
+nav#menu ul{position: absolute;top: -5px;left: 200px;}
+nav#menu li{width: 220px;text-align: center;}
+table#tabelaspec{width: 800px;}
+#contato fieldset{width: 800px;}
+#contato #nome, #contato #mail{width: 650px;height:50px;font-size: 30px;}
+#contato #msg {width: 650px;height:350px;font-size: 30px;}
+#contato #botao, #botao2{margin-left: 130px;width: 200px;height: 80px;font-size: 30px;}
+#mensagem, #mensagemOK{font-size: 35px;}
+}
+
