@@ -359,24 +359,50 @@
             <img class="fig-listas" src="img/portfolio/logo-javascript.png" title="JavaScript"><br><br>
             
 <ul class="listas" >
-<li><a href="testes/js/teste01JS.html">Teste 01 - Janelas</a></li>
-<li><a href="testes/js/teste02JS.html">Teste 02 - Ex. Média</a></li>
-<li><a href="testes/js/teste03JS.html">Teste 03 - IMC</a></li>
-<li><a href="testes/js/teste04JS.html">Teste 04 - Tabuada</a></li>
-<li><a href="testes/js/teste05JS.html">Teste 05 - Arrays</a>&nbsp;/&nbsp;<a href="testes/js/teste005JS.html">(exercício)</a></li>
-<li><a href="testes/js/teste06JS.html">Teste 06 - Objeto Date</a></li>
-<li><a href="testes/js/teste07JS.html">Teste 07 - String</a>&nbsp;/&nbsp;<a href="testes/js/teste007JS.html">(exercício)</a></li>
-<li><a href="testes/js/teste08JS.html">Teste 08 - Validação</a></a>&nbsp;/&nbsp;<a href="testes/js/teste008JS.html">(exercício)</a></li>
-<li><a href="testes/js/teste09JS.html">Teste 09 - JQuery</a></li>
-<li><a href="testes/js/teste10JS.html">Teste 10 - Show/Hide e Âncora</a></li>
-<li><a href="testes/js/teste11JS.html">Teste 11 - addClass</a></li>
-<li><a href="testes/js/teste12JS.html">Teste 12 - DOM</a></li>
-<li><a href="testes/js/teste13JS.html">Teste 13 - Menu Fixo</a></li>
-<li><a href="testes/js/teste14JS.html">Teste 14 - Ajax Básico</a></li>
-<li><a href="testes/js/teste15JS.html">Teste 15 - Scroll Top</a></li>
-<li><a href="testes/js/teste16JS.html">Teste 16 - Sorteio</a></li>
-<li><a href="testes/js/teste17JS.html">Teste 17 - Eventos</a></a>&nbsp;/&nbsp;<a href="testes/js/teste017JS.html">(exercício)</a></li>
-<li><a href="testes/js/teste18JS.html">Teste 18 - Tela</a></a>&nbsp;/&nbsp;<a href="testes/js/teste018JS.html">(exercício)</a></li>
+<li><a href="./testes/js/teste01JS.html">Teste 01 - Janelas</a></li>
+<li><a href="./testes/js/teste02JS.html">Teste 02 - Ex. Média</a></li>
+<li><a href="./testes/js/teste03JS.html">Teste 03 - Eventos</a></li>
+<li><a href="./testes/js/teste04JS.html">Teste 04 - Eq. 2ºGrau</a></li>
+<li><a href="./testes/js/teste05JS.html">Teste 05 - Lampadas</a></li>
+<li><a href="./testes/js/teste06JS.html">Teste 06 - Teste ?</a></li>
+<li><a href="./testes/js/teste07JS.html">Teste 07 - IMC simples</a></li>
+<li><a href="./testes/js/teste08JS.html">Teste 08 - Arrays</a></li>
+<li><a href="./testes/js/teste09JS.html">Teste 09 - Objetos</a></li>
+<li><a href="./testes/js/teste10JS.html">Teste 10 - Objeto Array</a></li>
+<li><a href="./testes/js/teste11JS.html">Teste 11 - Array Multi</a></li>
+<li><a href="./testes/js/teste12JS.html">Teste 12 - Objeto Date</a></li>
+<li><a href="./testes/js/teste13JS.html">Teste 13 - Classe Math</a></li>
+<li><a href="./testes/js/teste14JS.html">Teste 14 - Objeto RegExp</a></li>
+<li><a href="./testes/js/teste15JS.html">Teste 15 - Validação</a></li>
+<li><a href="./testes/js/teste16JS.html">Teste 16 - Objeto Função</a></li>
+<li><a href="./testes/js/teste17JS.html">Teste 17 - Botões</a></li>
+<li><a href="./testes/js/teste18JS.html">Teste 18 - B.O.M</a></li>
+<li><a href="./testes/js/teste19JS.html">Teste 19 - Dimensões Tela</a></li>
+<li><a href="./testes/js/teste20JS.html">Teste 20 - Temporizador</a></li>
+<li><a href="./testes/js/teste21JS.html">Teste 21 - IMC 2</a></li>
+<li><a href="./testes/js/teste22JS.html">Teste 22 - Cookies</a></li>
+<li><a href="./testes/js/teste23JS.html">Teste 23 - DOM</a></li>
+<li><a href="./testes/js/teste24JS.html">Teste 24 - DOM HTML</a></li>
+<li><a href="./testes/js/teste25JS.html">Teste 25 - Ex. Animação</a></li>
+<li><a href="./testes/js/teste26JS.html">Teste 26 - Inserir Table</a></li>
+<li><a href="./testes/js/teste27JS.html">Teste 27 - DOM CORE</a></li>
+<li><a href="./testes/js/teste28JS.html">Teste 28 - AJAX</a></li>
+<li><a href="./testes/js/teste29JS.html">Teste 29 - Ex. Banner</a></li>
+<li><a href="./testes/js/teste30JS.html">Teste 30 - JQuery</a></li>
+<li><a href="./testes/js/teste31JS.html">Teste 31 - IMC JQuery</a></li>
+<li><a href="./testes/js/teste32JS.html">Teste 32 - CPF JQuery</a></li>
+<li><a href="./testes/js/teste33JS.html">Teste 33 - Show JQuery</a></li>
+<li><a href="./testes/js/teste34JS.html">Teste 34 - Add Class</a></li>
+<li><a href="./testes/js/teste35JS.html">Teste 35 - Menu JQuery</a></li>
+<li><a href="./testes/js/teste36JS.html">Teste 36 - Fotos JQuery</a></li>
+<li><a href="./testes/js/teste37JS.html">Teste 37 - Ajax JQuery</a></li>
+<li><a href="./testes/js/teste38JS.html">Teste 38 - Navegador</a></li>
+<li><a href="./testes/js/teste39JS.html">Teste 39 - Mouse</a></li>
+<li><a href="./testes/js/teste40JS.html">Teste 40 - Teclado</a></li>
+<li><a href="./testes/js/teste41JS.html">Teste 41 - Slide JQ</a></li>
+<li><a href="./testes/js/teste42JS.html">Teste 42 - Album JQ</a></li>
+<li><a href="./testes/js/teste43JS.html">Teste 43 - Scroll Top</a></li>
+<li><a href="./testes/js/bootstrap/index.html">Teste 44 - Bootstrap</a></li>
 </ul>
 
           </div>
