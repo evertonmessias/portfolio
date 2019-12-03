@@ -487,17 +487,6 @@
 
 <li><a href="https://www.youtube.com/playlist?list=PL8iN9FQ7_jt4DJbeQqv--jpTy-2gTA3Cp" target="_blank">aulas-em-video</a></li>
 
-<?php
-$dir = './testes/c/testes/';
-$files = scandir($dir);
- 
-foreach ($files as $file) {
-	if($file != "index.php~" && $file != "index.php" && $file != "." && $file != "..") {
-   echo "<li><a href='".$dir.$file."'>".$file."</a></li>";
-   }
-}
-?>
-
 </ul>
 
           </div>
