@@ -359,13 +359,13 @@
             <img class="fig-listas" src="img/portfolio/logo-javascript.png" title="JavaScript"><br><br>
             
 <ul class="listas js" >
-<li><a href="./testes/js/teste01JS.html" target="_blank">Teste 01 - Saida</a></li>
-<li><a href="./testes/js/teste02JS.html" target="_blank">Teste 02 - Ex. Média</a></li>
-<li><a href="./testes/js/teste03JS.html" target="_blank">Teste 03 - Eventos</a></li>
+<li><a href="./testes/js/teste01JS.html" target="_blank">Teste 01 - Alert</a></li>
+<li><a href="./testes/js/teste02JS.html" target="_blank">Teste 02 - Média</a></li>
+<li><a href="./testes/js/teste03JS.html" target="_blank">Teste 03 - Valor R$</a></li>
 <li><a href="./testes/js/teste04JS.html" target="_blank">Teste 04 - Eq. 2ºGrau</a></li>
 <li><a href="./testes/js/teste05JS.html" target="_blank">Teste 05 - Lampadas</a></li>
 <li><a href="./testes/js/teste06JS.html" target="_blank">Teste 06 - Teste ?</a></li>
-<li><a href="./testes/js/teste07JS.html" target="_blank">Teste 07 - ECMAScript 262</a></li>
+<li><a href="./testes/js/teste07JS.html" target="_blank">Teste 07 - ECMA Script</a></li>
 <li><a href="./testes/js/teste08JS.html" target="_blank">Teste 08 - Arrays</a></li>
 <li><a href="./testes/js/teste09JS.html" target="_blank">Teste 09 - Tipos e Objetos</a></li>
 <li><a href="./testes/js/teste10JS.html" target="_blank">Teste 10 - Objeto Array</a></li>
