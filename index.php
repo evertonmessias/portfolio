@@ -381,8 +381,8 @@
 <li><a href="./testes/js/teste20JS.html" target="_blank">Teste 20 - Temporizador</a></li>
 <li><a href="./testes/js/teste21JS.html" target="_blank">Teste 21 - IMC 2</a></li>
 <li><a href="./testes/js/teste22JS.html" target="_blank">Teste 22 - Cookies</a></li>
-<li><a href="./testes/js/teste23JS.html" target="_blank">Teste 23 - DOM</a></li>
-<li><a href="./testes/js/teste24JS.html" target="_blank">Teste 24 - DOM HTML</a></li>
+<li><a href="./testes/js/teste23JS.html" target="_blank">Teste 23 - Seletores</a></li>
+<li><a href="./testes/js/teste24JS.html" target="_blank">Teste 24 - DOM</a></li>
 <li><a href="./testes/js/teste25JS.html" target="_blank">Teste 25 - Ex. Animação</a></li>
 <li><a href="./testes/js/teste26JS.html" target="_blank">Teste 26 - Inserir Table</a></li>
 <li><a href="./testes/js/teste27JS.html" target="_blank">Teste 27 - DOM CORE</a></li>
