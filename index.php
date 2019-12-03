@@ -365,9 +365,9 @@
 <li><a href="./testes/js/teste04JS.html" target="_blank">Teste 04 - Eq. 2ºGrau</a></li>
 <li><a href="./testes/js/teste05JS.html" target="_blank">Teste 05 - Lampadas</a></li>
 <li><a href="./testes/js/teste06JS.html" target="_blank">Teste 06 - Teste ?</a></li>
-<li><a href="./testes/js/teste07JS.html" target="_blank">Teste 07 - IMC simples</a></li>
+<li><a href="./testes/js/teste07JS.html" target="_blank">Teste 07 - ECMAScript 262</a></li>
 <li><a href="./testes/js/teste08JS.html" target="_blank">Teste 08 - Arrays</a></li>
-<li><a href="./testes/js/teste09JS.html" target="_blank">Teste 09 - Objetos</a></li>
+<li><a href="./testes/js/teste09JS.html" target="_blank">Teste 09 - Tipos e Objetos</a></li>
 <li><a href="./testes/js/teste10JS.html" target="_blank">Teste 10 - Objeto Array</a></li>
 <li><a href="./testes/js/teste11JS.html" target="_blank">Teste 11 - Array Multi</a></li>
 <li><a href="./testes/js/teste12JS.html" target="_blank">Teste 12 - Objeto Date</a></li>
