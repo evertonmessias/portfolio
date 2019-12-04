@@ -363,9 +363,6 @@
             <ul class="listas js">
 
               <?php
-
-              $inicio = 87;
-              $fim = 133;
               $i = 1;
               $arquivo = fopen('testes/js/index.html', 'r');
               if ($arquivo == false) {
