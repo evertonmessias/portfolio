@@ -360,22 +360,22 @@
             
 <ul class="listas js" >
     
-  <?php
-
-    echo "lista";
+  <?php  
 
     $inicio = 87;
     $fim = 133;
-
+    $i = 1;
     $arquivo = fopen('testes/js/index.html', 'r');
     if ($arquivo == false){echo('Não foi possível abrir o arquivo.');}
+    else{      
     while (true) {
-        $linha = fgets($arquivo);
+        $linha = fgets($arquivo);        
+        if($i > 88 && $i < 133) echo $linha;
         if ($linha == null) break;
-        if ($i >= $inicio && $i <= $fim) echo $linha;
+        $i++;
     }
     fclose($arquivo);
-
+    }
     ?>
 <!--
 <li><a href="./testes/js/teste01JS.html" target="_blank">Teste 01 - Alert</a></li>
