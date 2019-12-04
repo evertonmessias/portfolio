@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
-  <meta name="author" content="Everton Mendes Messias" >
+  <meta name="author" content="Everton Mendes Messias">
 
   <title>Portfólio Everton</title>
 
@@ -29,7 +29,7 @@
 
 <body id="page-top">
 
-	<a href="#" class="paracima"><img src="img/botao.png" title="TOP"></a>
+  <a href="#" class="paracima"><img src="img/botao.png" title="TOP"></a>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
@@ -71,9 +71,9 @@
       <h2 class="text-center text-uppercase text-secondary mb-0">Arquivos</h2>
       <hr class="star-dark mb-5">
       <div class="row">
-      
-      
-	       <div class="col-md-6 col-lg-4">
+
+
+        <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -83,8 +83,8 @@
             <img class="img-fluid" src="img/portfolio/logo-html5.png" alt="">
           </a>
         </div>
-        
-                <div class="col-md-6 col-lg-4">
+
+        <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -96,8 +96,8 @@
         </div>
 
 
-        
-        
+
+
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -108,9 +108,9 @@
             <img class="img-fluid" src="img/portfolio/logo-javascript.png" alt="">
           </a>
         </div>
-        
-        
-        
+
+
+
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -121,9 +121,9 @@
             <img class="img-fluid" src="img/portfolio/logo-php.png" alt="">
           </a>
         </div>
-        
-        
-        
+
+
+
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -134,8 +134,8 @@
             <img class="img-fluid" src="img/portfolio/logo-linux.png" alt="">
           </a>
         </div>
-        
-        
+
+
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -146,10 +146,10 @@
             <img class="img-fluid" src="img/portfolio/logo-c.png" alt="">
           </a>
         </div>
-        
- 
 
- 			<div class="col-md-6 col-lg-4">
+
+
+        <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-7">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -159,9 +159,9 @@
             <img class="img-fluid" src="img/portfolio/logo-resumos.png" alt="">
           </a>
         </div>
-        
-        
-         <div class="col-md-6 col-lg-4">
+
+
+        <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-8">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -171,9 +171,9 @@
             <img class="img-fluid" src="img/portfolio/logo-git.png" alt="">
           </a>
         </div>
-        
-        
-         <div class="col-md-6 col-lg-4">
+
+
+        <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-9">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -185,7 +185,7 @@
         </div>
 
 
-        
+
       </div>
     </div>
   </section>
@@ -203,7 +203,7 @@
           <p class="lead">Tenho interesses em matemática, ciências e tecnologias.</p>
         </div>
       </div>
-     <!-- <div class="text-center mt-4">
+      <!-- <div class="text-center mt-4">
         <a class="btn btn-xl btn-outline-light" href="#">
           <i class="fas fa-download mr-2"></i>
           Download Now!
@@ -280,7 +280,7 @@
                 <i class="fab fa-fw fa-linkedin-in"></i>
               </a>
             </li>
-           </ul>
+          </ul>
         </div>
         <div class="col-md-4">
           <h4 class="text-uppercase mb-4">E-mail:</h4>
@@ -314,17 +314,18 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-           <hr class="star-dark mb-5"><a target="_blank" href="testes/htmlcss/html5/">
-            <img class="fig-listas" src="img/portfolio/logo-html5.png" alt="">
-         <h3 class="mb-5">Exemplo</h3>   </a>
-       
+            <hr class="star-dark mb-5"><a target="_blank" href="testes/htmlcss/html5/">
+              <img class="fig-listas" src="img/portfolio/logo-html5.png" alt="">
+              <h3 class="mb-5">Exemplo</h3>
+            </a>
+
           </div>
         </div>
       </div>
     </div>
   </div>
-        
-        
+
+
   <!-- Portfolio Modal 2 -->
   <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
     <div class="portfolio-modal-dialog bg-white">
@@ -334,11 +335,12 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            
+
             <hr class="star-dark mb-5"><a target="_blank" href="testes/htmlcss/css3/">
-            <img class="fig-listas" src="img/portfolio/logo-css3.png" alt="">
-<h3 class="mb-5">Exemplo</h3></a>
-         
+              <img class="fig-listas" src="img/portfolio/logo-css3.png" alt="">
+              <h3 class="mb-5">Exemplo</h3>
+            </a>
+
           </div>
         </div>
       </div>
@@ -354,76 +356,32 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            
+
             <hr class="star-dark mb-5">
             <img class="fig-listas" src="img/portfolio/logo-javascript.png" title="JavaScript"><br><br>
-            
-<ul class="listas js" >
-    
-  <?php  
 
-    $inicio = 87;
-    $fim = 133;
-    $i = 1;
-    $arquivo = fopen('testes/js/index.html', 'r');
-    if ($arquivo == false){echo('Não foi possível abrir o arquivo.');}
-    else{      
-    while (true) {
-        $linha = fgets($arquivo);        
-        if($i > 88 && $i < 133) echo $linha;
-        if ($linha == null) break;
-        $i++;
-    }
-    fclose($arquivo);
-    }
-    ?>
-<!--
-<li><a href="./testes/js/teste01JS.html" target="_blank">Teste 01 - Alert</a></li>
-<li><a href="./testes/js/teste02JS.html" target="_blank">Teste 02 - Média</a></li>
-<li><a href="./testes/js/teste03JS.html" target="_blank">Teste 03 - Valor R$</a></li>
-<li><a href="./testes/js/teste04JS.html" target="_blank">Teste 04 - Eq. 2ºGrau</a></li>
-<li><a href="./testes/js/teste05JS.html" target="_blank">Teste 05 - Lampadas</a></li>
-<li><a href="./testes/js/teste06JS.html" target="_blank">Teste 06 - Teste ?</a></li>
-<li><a href="./testes/js/teste07JS.html" target="_blank">Teste 07 - ECMA Script</a></li>
-<li><a href="./testes/js/teste08JS.html" target="_blank">Teste 08 - Arrays</a></li>
-<li><a href="./testes/js/teste09JS.html" target="_blank">Teste 09 - Tipos e Objetos</a></li>
-<li><a href="./testes/js/teste10JS.html" target="_blank">Teste 10 - Objeto Array</a></li>
-<li><a href="./testes/js/teste11JS.html" target="_blank">Teste 11 - Array Multi</a></li>
-<li><a href="./testes/js/teste12JS.html" target="_blank">Teste 12 - Objeto Date</a></li>
-<li><a href="./testes/js/teste13JS.html" target="_blank">Teste 13 - Classe Math</a></li>
-<li><a href="./testes/js/teste14JS.html" target="_blank">Teste 14 - Objeto RegExp</a></li>
-<li><a href="./testes/js/teste15JS.html" target="_blank">Teste 15 - Validação</a></li>
-<li><a href="./testes/js/teste16JS.html" target="_blank">Teste 16 - Objeto Função</a></li>
-<li><a href="./testes/js/teste17JS.html" target="_blank">Teste 17 - Botões</a></li>
-<li><a href="./testes/js/teste18JS.html" target="_blank">Teste 18 - B.O.M</a></li>
-<li><a href="./testes/js/teste19JS.html" target="_blank">Teste 19 - Dimensões Tela</a></li>
-<li><a href="./testes/js/teste20JS.html" target="_blank">Teste 20 - Temporizador</a></li>
-<li><a href="./testes/js/teste21JS.html" target="_blank">Teste 21 - IMC 2</a></li>
-<li><a href="./testes/js/teste22JS.html" target="_blank">Teste 22 - Cookies</a></li>
-<li><a href="./testes/js/teste23JS.html" target="_blank">Teste 23 - Seletores</a></li>
-<li><a href="./testes/js/teste24JS.html" target="_blank">Teste 24 - DOM</a></li>
-<li><a href="./testes/js/teste25JS.html" target="_blank">Teste 25 - Ex. Animação</a></li>
-<li><a href="./testes/js/teste26JS.html" target="_blank">Teste 26 - Inserir Table</a></li>
-<li><a href="./testes/js/teste27JS.html" target="_blank">Teste 27 - Eventos</a></li>
-<li><a href="./testes/js/teste28JS.html" target="_blank">Teste 28 - AJAX</a></li>
-<li><a href="./testes/js/teste29JS.html" target="_blank">Teste 29 - Ex. Banner</a></li>
-<li><a href="./testes/js/teste30JS.html" target="_blank">Teste 30 - JQuery</a></li>
-<li><a href="./testes/js/teste31JS.html" target="_blank">Teste 31 - IMC JQuery</a></li>
-<li><a href="./testes/js/teste32JS.html" target="_blank">Teste 32 - CPF JQuery</a></li>
-<li><a href="./testes/js/teste33JS.html" target="_blank">Teste 33 - Show JQuery</a></li>
-<li><a href="./testes/js/teste34JS.html" target="_blank">Teste 34 - Add Class</a></li>
-<li><a href="./testes/js/teste35JS.html" target="_blank">Teste 35 - Menu JQuery</a></li>
-<li><a href="./testes/js/teste36JS.html" target="_blank">Teste 36 - Fotos JQuery</a></li>
-<li><a href="./testes/js/teste37JS.html" target="_blank">Teste 37 - Ajax JQuery</a></li>
-<li><a href="./testes/js/teste38JS.html" target="_blank">Teste 38 - Navegador</a></li>
-<li><a href="./testes/js/teste39JS.html" target="_blank">Teste 39 - Mouse</a></li>
-<li><a href="./testes/js/teste40JS.html" target="_blank">Teste 40 - Teclado</a></li>
-<li><a href="./testes/js/teste41JS.html" target="_blank">Teste 41 - Slide JQ</a></li>
-<li><a href="./testes/js/teste42JS.html" target="_blank">Teste 42 - Album JQ</a></li>
-<li><a href="./testes/js/teste43JS.html" target="_blank">Teste 43 - Scroll Top</a></li>
-<li><a href="./testes/js/bootstrap/index.html" target="_blank">Teste 44 - Bootstrap</a></li>
--->
-</ul>
+            <ul class="listas js">
+
+              <?php
+
+              $inicio = 87;
+              $fim = 133;
+              $i = 1;
+              $arquivo = fopen('testes/js/index.html', 'r');
+              if ($arquivo == false) {
+                echo ('Não foi possível abrir o arquivo.');
+              } else {
+                while (true) {
+                  $linha = fgets($arquivo);
+                  if ($i > 87 && $i < 133) echo $linha;
+                  if ($linha == null) break;
+                  $i++;
+                }
+                fclose($arquivo);
+              }
+              ?>
+
+            </ul>
 
           </div>
         </div>
@@ -440,30 +398,30 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            
+
             <hr class="star-dark mb-5">
             <img class="fig-listas" src="img/portfolio/logo-php.png" title="PHP"><br><br>
-            
-<ul class="listas" >
-<li><a href="testes/php/teste01.1.php">Teste 01 - Olá Mundo</a>&nbsp;/&nbsp;<a href="testes/php/teste01.2.php">PHP Info</a></li>
-<li><a href="testes/php/teste02.php">Teste 02 - GET</a></li>
-<li><a href="testes/php/teste03.php">Teste 03 - Condições e Funções</a></li>
-<li><a href="testes/php/teste04.php">Teste 04 - Links</a></li>
-<li><a href="testes/php/teste05.php">Teste 05 - Laços</a></li>
-<li><a href="testes/php/teste06.php">Teste 06 - Arrays</a>&nbsp;/&nbsp;<a href="testes/php/teste06.2.php">Função Date</a></li>
-<li><a href="testes/php/sistema/index.php">Teste 07 - Sistema Ex</a>&nbsp;/&nbsp;<a href="testes/php/sistema/sistema.zip">Download1</a></li>
-<li><a href="testes/php/sistemaoo/index.php">Teste 08 - Sistema OO</a>&nbsp;/&nbsp;<a href="testes/php/sistemaoo/sistemaoo.zip">Download2</a></li>
 
-<li><a href="testes/php/drupal/drupal8.zip">Teste 09 - CMS Drupal - Download</a></li>
+            <ul class="listas">
+              <li><a href="testes/php/teste01.1.php">Teste 01 - Olá Mundo</a>&nbsp;/&nbsp;<a href="testes/php/teste01.2.php">PHP Info</a></li>
+              <li><a href="testes/php/teste02.php">Teste 02 - GET</a></li>
+              <li><a href="testes/php/teste03.php">Teste 03 - Condições e Funções</a></li>
+              <li><a href="testes/php/teste04.php">Teste 04 - Links</a></li>
+              <li><a href="testes/php/teste05.php">Teste 05 - Laços</a></li>
+              <li><a href="testes/php/teste06.php">Teste 06 - Arrays</a>&nbsp;/&nbsp;<a href="testes/php/teste06.2.php">Função Date</a></li>
+              <li><a href="testes/php/sistema/index.php">Teste 07 - Sistema Ex</a>&nbsp;/&nbsp;<a href="testes/php/sistema/sistema.zip">Download1</a></li>
+              <li><a href="testes/php/sistemaoo/index.php">Teste 08 - Sistema OO</a>&nbsp;/&nbsp;<a href="testes/php/sistemaoo/sistemaoo.zip">Download2</a></li>
 
-<!--<li><a href="testes/php/teste08.html">Teste 08 - MySQL</a></li>
+              <li><a href="testes/php/drupal/drupal8.zip">Teste 09 - CMS Drupal - Download</a></li>
+
+              <!--<li><a href="testes/php/teste08.html">Teste 08 - MySQL</a></li>
 <li><a href="testes/php/teste09.php">Teste 09 - POO</a></li>
 <li><a href="testes/php/teste10.php">Teste 10 - ContaBanco</a></li>
 <li><a href="testes/php/teste11.php">Teste 11 - ControleRemoto</a></li>
 <li><a href="testes/php/teste12.php">Teste 12 - Relac Classes</a></li>
 <li><a href="testes/php/teste13.php">Teste 13 - Eq. 2ºGrau POO</a></li>
 <li><a href="testes/php/teste14.php">Teste 14 - Herança & Polim</a></li> -->
-</ul>
+            </ul>
           </div>
         </div>
       </div>
@@ -479,10 +437,10 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            
+
             <hr class="star-dark mb-5">
             <img class="fig-listas" src="img/portfolio/logo-linux.png" alt="">
-<p class="mb-5">*** em construção ***</p>
+            <p class="mb-5">*** em construção ***</p>
 
           </div>
         </div>
@@ -499,15 +457,15 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            
+
             <hr class="star-dark mb-5">
             <img class="fig-listas" src="img/portfolio/logo-c.png" alt=""><br><br>
-            
-<ul class="listas listac" >
 
-<li><a href="https://www.youtube.com/playlist?list=PL8iN9FQ7_jt4DJbeQqv--jpTy-2gTA3Cp" target="_blank">aulas-em-video</a></li>
+            <ul class="listas listac">
 
-</ul>
+              <li><a href="https://www.youtube.com/playlist?list=PL8iN9FQ7_jt4DJbeQqv--jpTy-2gTA3Cp" target="_blank">aulas-em-video</a></li>
+
+            </ul>
 
           </div>
         </div>
@@ -524,18 +482,19 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-           <hr class="star-dark mb-5"> <a target="_blank" href="https://mega.nz/#F!Tx9mRYYB!MRalFzv0GQQ73TKihya3YQ">
-            <img class="fig-listas" src="img/portfolio/logo-resumos.png" alt="">
-         <h3 class="mb-5">Lista</h3>   </a>
-       
+            <hr class="star-dark mb-5"> <a target="_blank" href="https://mega.nz/#F!Tx9mRYYB!MRalFzv0GQQ73TKihya3YQ">
+              <img class="fig-listas" src="img/portfolio/logo-resumos.png" alt="">
+              <h3 class="mb-5">Lista</h3>
+            </a>
+
           </div>
         </div>
       </div>
     </div>
   </div>
-  
-  
-    <!-- Portfolio Modal 8 -->
+
+
+  <!-- Portfolio Modal 8 -->
   <div class="portfolio-modal mfp-hide" id="portfolio-modal-8">
     <div class="portfolio-modal-dialog bg-white">
       <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -544,18 +503,19 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-           <hr class="star-dark mb-5"> <a target="_blank" href="https://github.com/evertonmessias">
-            <img class="fig-listas" src="img/portfolio/logo-git.png" alt=""><br><br><br>
-         <h3 class="mb-5">Projetos</h3>   </a>
-       
+            <hr class="star-dark mb-5"> <a target="_blank" href="https://github.com/evertonmessias">
+              <img class="fig-listas" src="img/portfolio/logo-git.png" alt=""><br><br><br>
+              <h3 class="mb-5">Projetos</h3>
+            </a>
+
           </div>
         </div>
       </div>
     </div>
   </div>
-  
-  
-    <!-- Portfolio Modal 9 -->
+
+
+  <!-- Portfolio Modal 9 -->
   <div class="portfolio-modal mfp-hide" id="portfolio-modal-9">
     <div class="portfolio-modal-dialog bg-white">
       <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -564,10 +524,11 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-           <hr class="star-dark mb-5"> <a target="_blank"  href="https://mega.nz/#F!K490RKYB!_WkYTtFycUXjXjgHZi220w">
-            <img class="fig-listas" src="img/portfolio/logo-mega.png" alt="">
-         <h3 class="mb-5">Downloads</h3>   </a>
-       
+            <hr class="star-dark mb-5"> <a target="_blank" href="https://mega.nz/#F!K490RKYB!_WkYTtFycUXjXjgHZi220w">
+              <img class="fig-listas" src="img/portfolio/logo-mega.png" alt="">
+              <h3 class="mb-5">Downloads</h3>
+            </a>
+
           </div>
         </div>
       </div>
