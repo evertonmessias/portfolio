@@ -385,7 +385,7 @@
 <li><a href="./testes/js/teste24JS.html" target="_blank">Teste 24 - DOM</a></li>
 <li><a href="./testes/js/teste25JS.html" target="_blank">Teste 25 - Ex. Animação</a></li>
 <li><a href="./testes/js/teste26JS.html" target="_blank">Teste 26 - Inserir Table</a></li>
-<li><a href="./testes/js/teste27JS.html" target="_blank">Teste 27 - DOM CORE</a></li>
+<li><a href="./testes/js/teste27JS.html" target="_blank">Teste 27 - Eventos</a></li>
 <li><a href="./testes/js/teste28JS.html" target="_blank">Teste 28 - AJAX</a></li>
 <li><a href="./testes/js/teste29JS.html" target="_blank">Teste 29 - Ex. Banner</a></li>
 <li><a href="./testes/js/teste30JS.html" target="_blank">Teste 30 - JQuery</a></li>
