@@ -359,6 +359,25 @@
             <img class="fig-listas" src="img/portfolio/logo-javascript.png" title="JavaScript"><br><br>
             
 <ul class="listas js" >
+    
+  <?php
+
+    echo "lista";
+
+    $inicio = 87;
+    $fim = 133;
+
+    $arquivo = fopen('testes/js/index.html', 'r');
+    if ($arquivo == false){echo('Não foi possível abrir o arquivo.');}
+    while (true) {
+        $linha = fgets($arquivo);
+        if ($linha == null) break;
+        if ($i >= $inicio && $i <= $fim) echo $linha;
+    }
+    fclose($arquivo);
+
+    ?>
+<!--
 <li><a href="./testes/js/teste01JS.html" target="_blank">Teste 01 - Alert</a></li>
 <li><a href="./testes/js/teste02JS.html" target="_blank">Teste 02 - Média</a></li>
 <li><a href="./testes/js/teste03JS.html" target="_blank">Teste 03 - Valor R$</a></li>
@@ -403,6 +422,7 @@
 <li><a href="./testes/js/teste42JS.html" target="_blank">Teste 42 - Album JQ</a></li>
 <li><a href="./testes/js/teste43JS.html" target="_blank">Teste 43 - Scroll Top</a></li>
 <li><a href="./testes/js/bootstrap/index.html" target="_blank">Teste 44 - Bootstrap</a></li>
+-->
 </ul>
 
           </div>
