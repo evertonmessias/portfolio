@@ -363,16 +363,19 @@
             <ul class="listas js">
 
               <?php
-              $i = 1;
+              $li = 87;$lf = 133;$i = 1;
               $arquivo = fopen('testes/js/index.html', 'r');
               if ($arquivo == false) {
                 echo ('Não foi possível abrir o arquivo.');
               } else {
                 while (true) {
                   $linha = fgets($arquivo);
-                  if ($i > 87 && $i < 133) echo $linha;
-                  if ($linha == null) break;
+                  if ($i > $li && $i < $lf){
+                    $string = str_replace('teste', 'testes/js/teste', $linha);
+                    echo $string;
+                  }
                   $i++;
+                  if ($linha == null) break;                  
                 }
                 fclose($arquivo);
               }
