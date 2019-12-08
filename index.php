@@ -203,12 +203,6 @@
           <p class="lead">Tenho interesses em matemática, ciências e tecnologias.</p>
         </div>
       </div>
-      <!-- <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="#">
-          <i class="fas fa-download mr-2"></i>
-          Download Now!
-        </a>
-      </div> -->
     </div>
   </section>
 
@@ -363,19 +357,21 @@
             <ul class="listas js">
 
               <?php
-              $li = 87;$lf = 133;$i = 1;
+              $li = 87;
+              $lf = 133;
+              $i = 1;
               $arquivo = fopen('testes/js/index.html', 'r');
               if ($arquivo == false) {
                 echo ('Não foi possível abrir o arquivo.');
               } else {
                 while (true) {
                   $linha = fgets($arquivo);
-                  if ($i > $li && $i < $lf){
+                  if ($i > $li && $i < $lf) {
                     $string = str_replace('teste', 'testes/js/teste', $linha);
                     echo $string;
                   }
                   $i++;
-                  if ($linha == null) break;                  
+                  if ($linha == null) break;
                 }
                 fclose($arquivo);
               }
@@ -403,24 +399,26 @@
             <img class="fig-listas" src="img/portfolio/logo-php.png" title="PHP"><br><br>
 
             <ul class="listas">
-              <li><a href="testes/php/teste01.1.php">Teste 01 - Olá Mundo</a>&nbsp;/&nbsp;<a href="testes/php/teste01.2.php">PHP Info</a></li>
-              <li><a href="testes/php/teste02.php">Teste 02 - GET</a></li>
-              <li><a href="testes/php/teste03.php">Teste 03 - Condições e Funções</a></li>
-              <li><a href="testes/php/teste04.php">Teste 04 - Links</a></li>
-              <li><a href="testes/php/teste05.php">Teste 05 - Laços</a></li>
-              <li><a href="testes/php/teste06.php">Teste 06 - Arrays</a>&nbsp;/&nbsp;<a href="testes/php/teste06.2.php">Função Date</a></li>
-              <li><a href="testes/php/sistema/index.php">Teste 07 - Sistema Ex</a>&nbsp;/&nbsp;<a href="testes/php/sistema/sistema.zip">Download1</a></li>
-              <li><a href="testes/php/sistemaoo/index.php">Teste 08 - Sistema OO</a>&nbsp;/&nbsp;<a href="testes/php/sistemaoo/sistemaoo.zip">Download2</a></li>
-
-              <li><a href="testes/php/drupal/drupal8.zip">Teste 09 - CMS Drupal - Download</a></li>
-
-              <!--<li><a href="testes/php/teste08.html">Teste 08 - MySQL</a></li>
-<li><a href="testes/php/teste09.php">Teste 09 - POO</a></li>
-<li><a href="testes/php/teste10.php">Teste 10 - ContaBanco</a></li>
-<li><a href="testes/php/teste11.php">Teste 11 - ControleRemoto</a></li>
-<li><a href="testes/php/teste12.php">Teste 12 - Relac Classes</a></li>
-<li><a href="testes/php/teste13.php">Teste 13 - Eq. 2ºGrau POO</a></li>
-<li><a href="testes/php/teste14.php">Teste 14 - Herança & Polim</a></li> -->
+              <?php
+              $li = 86;
+              $lf = 102;
+              $i = 1;
+              $arquivo = fopen('testes/php/index.php', 'r');
+              if ($arquivo == false) {
+                echo ('Não foi possível abrir o arquivo.');
+              } else {
+                while (true) {
+                  $linha = fgets($arquivo);
+                  if ($i > $li && $i < $lf) {
+                    $string = str_replace('teste', 'testes/php/teste', $linha);
+                    echo $string;
+                  }
+                  $i++;
+                  if ($linha == null) break;
+                }
+                fclose($arquivo);
+              }
+              ?>
             </ul>
           </div>
         </div>
