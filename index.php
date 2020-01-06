@@ -358,7 +358,7 @@
 
               <?php
               $li = 87;
-              $lf = 135;
+              $lf = 137;
               $i = 1;
               $arquivo = fopen('testes/js/index.html', 'r');
               if ($arquivo == false) {
@@ -367,7 +367,7 @@
                 while (true) {
                   $linha = fgets($arquivo);
                   if ($i > $li && $i < $lf) {
-                    $string = str_replace('teste', 'testes/js/teste', $linha);
+                    $string = str_replace('teste', 'testes/js/teste', $linha); // tira js
                     echo $string;
                   }
                   $i++;
