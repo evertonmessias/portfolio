@@ -359,7 +359,7 @@
             <?php
               $li = 87;
               $lf1 = 133;
-              $lf2 = 142;
+              $lf2 = 144;
               $i = 1;
               $arquivo = fopen('testes/js/index.html', 'r');
               if ($arquivo == false) {
