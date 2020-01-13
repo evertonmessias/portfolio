@@ -356,9 +356,10 @@
 
             <ul class="listas js">
 
-              <?php
+            <?php
               $li = 87;
-              $lf = 142;
+              $lf1 = 133;
+              $lf2 = 142;
               $i = 1;
               $arquivo = fopen('testes/js/index.html', 'r');
               if ($arquivo == false) {
@@ -366,9 +367,13 @@
               } else {
                 while (true) {
                   $linha = fgets($arquivo);
-                  if ($i > $li && $i < $lf) {
-                    $string = str_replace('teste', 'testes/js/teste', $linha); // tira js
-                    echo $string;
+                  if ($i > $li && $i <= $lf1) {
+                    $string1 = str_replace('teste', 'testes/js/teste', $linha); // tira js
+                    echo $string1;
+                  }
+                  if ($i > $lf1 && $i <= $lf2) {
+                    $string2 = str_replace('node', 'testes/js/node', $linha); // tira js
+                    echo $string2;
                   }
                   $i++;
                   if ($linha == null) break;
