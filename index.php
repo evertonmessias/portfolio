@@ -386,15 +386,12 @@
                 fclose($arquivo);
               }
               ?>
-
             </ul>
-
           </div>
         </div>
       </div>
     </div>
   </div>
-
   <!-- Portfolio Modal 4 -->
   <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
     <div class="portfolio-modal-dialog bg-white">
