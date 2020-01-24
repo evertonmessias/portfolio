@@ -359,7 +359,8 @@
             <?php
               $li = 87;
               $lf1 = 134;
-              $lf2 = 145;
+              $lf2 = 144;
+              $lf3 = 146;
               $i = 1;
               $arquivo = fopen('testes/js/index.html', 'r');
               if ($arquivo == false) {
@@ -374,6 +375,10 @@
                   if ($i > $lf1 && $i <= $lf2) {
                     $string2 = str_replace('node', 'testes/js/node', $linha); // tira js
                     echo $string2;
+                  }
+                  if ($i > $lf2 && $i <= $lf3) {
+                    $string3 = str_replace('blogapp', 'testes/js/blogapp', $linha); // tira js
+                    echo $string3;
                   }
                   $i++;
                   if ($linha == null) break;
