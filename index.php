@@ -361,6 +361,8 @@
               $lf1 = 134;
               $lf2 = 144;
               $lf3 = 146;
+              $lf4 = 148;
+              $lf5 = 149;
               $i = 1;
               $arquivo = fopen('testes/js/index.html', 'r');
               if ($arquivo == false) {
@@ -380,6 +382,14 @@
                     $string3 = str_replace('blogapp', 'testes/js/blogapp', $linha); // tira js
                     echo $string3;
                   }
+                  if ($i > $lf3 && $i <= $lf4) {
+                    $string4 = str_replace('react_teste', 'testes/js/react_teste', $linha); // tira js
+                    echo $string4;
+                  }
+                  if ($i > $lf4 && $i <= $lf5) {
+                    $string4 = str_replace('node_react', 'testes/js/node_react', $linha); // tira js
+                    echo $string4;
+                  }                  
                   $i++;
                   if ($linha == null) break;
                 }
