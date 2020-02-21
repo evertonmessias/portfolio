@@ -428,7 +428,7 @@
                 while (true) {
                   $linha = fgets($arquivo);
                   if ($i > $li && $i < $lf) {
-                    $string = str_replace('teste', 'testes/php/teste', $linha);
+                    $string = str_replace('./index_aux.php?file=teste', 'testes/php/teste', $linha);
                     echo $string;
                   }
                   $i++;
