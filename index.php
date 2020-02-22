@@ -62,14 +62,13 @@
       <hr class="star-light">
       <h2 class="font-weight-light mb-0">Web Developer - Programador - Professor</h2><br><br>
       <?php
-      if(isset($_COOKIE['contador'])){
-        $contador = $_COOKIE['contador'];
-        $contador++;
-        setcookie('contador',$contador,time()+60*60*24*365,'/');
-        echo "<span class='contador'>$contador</span>";
+      session_start();
+      if(isset($_SESSION['contador'])){
+        $_SESSION['contador']++;
+        echo "<span class='contador'>".$_SESSION['contador']."</span>";
       }else{
-        setcookie('contador',1,time()+60*60*24*365,'/');
-        echo "<span class='contador'>1</span>";
+        $_SESSION['contador'] = 100;
+        echo "<span class='contador'>".$_SESSION['contador']."</span>";
       }
 ?>
     </div>
