@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 
   <link rel="icon" type="imagem/png" href="img/eu.png" />
@@ -62,15 +63,27 @@
       <hr class="star-light">
       <h2 class="font-weight-light mb-0">Web Developer - Programador - Professor</h2><br><br>
       <?php
-      session_start();
-      if(isset($_SESSION['contador'])){
-        $_SESSION['contador']++;
-        echo "<span class='contador'>".$_SESSION['contador']."</span>";
-      }else{
-        $_SESSION['contador'] = 100;
-        echo "<span class='contador'>".$_SESSION['contador']."</span>";
+      $pathcontador = './log/portfolio.txt';
+      $pathvisitas = './log/visitas.txt';
+      function ler($path)
+      {
+        $arquivo = fopen($path, 'r');
+        $linha = fgets($arquivo);
+        echo "<span class='contador'>$linha</span>";
+        fclose($arquivo);
+        return $linha;
       }
-?>
+      function escrever($path, $texto, $modo)
+      {
+        $arquivo = fopen($path, $modo);
+        fwrite($arquivo, $texto."\n");
+        fclose($arquivo);
+      }
+      $n = (int)ler($pathcontador);
+      $n++;
+      escrever($pathcontador,$n,'w');
+      escrever($pathvisitas,$_SERVER['REMOTE_ADDR'],'a+');
+      ?>
     </div>
   </header>
 
