@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
 
   <link rel="icon" type="imagem/png" href="img/eu.png" />
@@ -61,7 +60,18 @@
       <img class="fig-eu" src="img/profile.png" title="Eu" alt=""><br><br>
       <h1 class="text-uppercase mb-0">Éverton Messias</h1>
       <hr class="star-light">
-      <h2 class="font-weight-light mb-0">Web Developer - Programador - Professor</h2>
+      <h2 class="font-weight-light mb-0">Web Developer - Programador - Professor</h2><br><br>
+      <?php
+      if(isset($_COOKIE['contador'])){
+        $contador = $_COOKIE['contador'];
+        $contador++;
+        setcookie('contador',$contador,time()+60*60*24*365,'/');
+        echo "<span class='contador'>$contador</span>";
+      }else{
+        setcookie('contador',1,time()+60*60*24*365,'/');
+        echo "<span class='contador'>1</span>";
+      }
+?>
     </div>
   </header>
 
@@ -356,7 +366,7 @@
 
             <ul class="listas js">
 
-            <?php
+              <?php
               $li = 87;
               $lf1 = 134;
               $lf2 = 144;
@@ -389,14 +399,14 @@
                   if ($i > $lf4 && $i <= $lf5) {
                     $string4 = str_replace('node_react', 'testes/js/node_react', $linha); // tira js
                     echo $string4;
-                  }                  
+                  }
                   $i++;
                   if ($linha == null) break;
                 }
                 fclose($arquivo);
               }
               ?>
-              
+
             </ul>
           </div>
         </div>

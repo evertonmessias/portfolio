@@ -430,6 +430,14 @@ ul.js {
     opacity: 1;
 }
 
+.contador{    
+    background-color: #aaa;
+    padding:5px;
+    border-radius: 10px;
+    font-size: 12px;
+    color:#606060;
+}
+
 @media (max-width: 720px) {
     /* Para dispositivos Mobile */
     .paracima img {
