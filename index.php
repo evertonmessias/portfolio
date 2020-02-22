@@ -69,7 +69,7 @@
       $mes = date("m");
       $ano = date("Y");
       $hora = date("H");
-      $hora = $hora - 4; // para ajuste do horário de verão
+      $hora = $hora - 4; // ajustar o horário de verão
       $min = date("i");
       $data = $dia . "-" . $mes . "-" . $ano . "_" . $hora . ":" . $min;
       function ler($path)
