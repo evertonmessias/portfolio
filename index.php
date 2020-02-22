@@ -65,6 +65,12 @@
       <?php
       $pathcontador = './log/portfolio.txt';
       $pathvisitas = './log/visitas.txt';
+      $dia = date("d");
+      $mes = date("m");
+      $ano = date("Y");
+      $hora = date("H");
+      $min = date("i");
+      $data = $dia . "-" . $mes . "-" . $ano . "_" . $hora . ":" . $min;
       function ler($path)
       {
         $arquivo = fopen($path, 'r');
@@ -76,13 +82,13 @@
       function escrever($path, $texto, $modo)
       {
         $arquivo = fopen($path, $modo);
-        fwrite($arquivo, $texto."\n");
+        fwrite($arquivo, $texto . "\n");
         fclose($arquivo);
       }
-      $n = (int)ler($pathcontador);
+      $n = (int) ler($pathcontador);
       $n++;
-      escrever($pathcontador,$n,'w');
-      escrever($pathvisitas,$_SERVER['REMOTE_ADDR'],'a+');
+      escrever($pathcontador, $n, 'w');
+      escrever($pathvisitas, $data." : ".$_SERVER['REMOTE_ADDR'], 'a+');
       ?>
     </div>
   </header>
