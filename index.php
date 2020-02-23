@@ -447,8 +447,8 @@
 
             <ul class="listas">
               <?php
-              $li = 86;
-              $lf = 102;
+              $li = 90;
+              $lf = 106;
               $i = 1;
               $arquivo = fopen('testes/php/index.php', 'r');
               if ($arquivo == false) {
