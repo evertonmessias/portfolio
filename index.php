@@ -447,8 +447,8 @@
 
             <ul class="listas">
               <?php
-              $li = 14;
-              $lf = 30;
+              $li = 17;
+              $lf = 33;
               $i = 1;
               $arquivo = fopen('testes/php/index.php', 'r');
               if ($arquivo == false) {
@@ -460,7 +460,7 @@
                     $string = str_replace('./index_aux.php?file=teste', 'testes/php/teste', $linha);
                     echo $string;
                   }
-                  if ($i == 30) {
+                  if ($i == $lf+1) {
                     $string2 = str_replace('index.php', 'testes/php/index.php', $linha);
                     echo $string2;
                   }
