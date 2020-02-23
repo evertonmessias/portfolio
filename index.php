@@ -89,7 +89,7 @@
       $n = (int) ler($pathcontador);
       $n++;
       escrever($pathcontador, $n, 'w');
-      escrever($pathvisitas, $data." : ".$_SERVER['REMOTE_ADDR'], 'a+');
+      escrever($pathvisitas, $data . " : " . $_SERVER['REMOTE_ADDR'], 'a+');
       ?>
     </div>
   </header>
@@ -447,8 +447,8 @@
 
             <ul class="listas">
               <?php
-              $li = 90;
-              $lf = 106;
+              $li = 14;
+              $lf = 30;
               $i = 1;
               $arquivo = fopen('testes/php/index.php', 'r');
               if ($arquivo == false) {
@@ -459,6 +459,10 @@
                   if ($i > $li && $i < $lf) {
                     $string = str_replace('./index_aux.php?file=teste', 'testes/php/teste', $linha);
                     echo $string;
+                  }
+                  if ($i == 30) {
+                    $string2 = str_replace('index.php', 'testes/php/index.php', $linha);
+                    echo $string2;
                   }
                   $i++;
                   if ($linha == null) break;
