@@ -63,8 +63,8 @@
       <hr class="star-light">
       <h2 class="font-weight-light mb-0">Web Developer - Programador - Professor</h2><br><br>
       <?php
-      $pathcontador = './log/portfolio.txt';
-      $pathvisitas = './log/visitas.txt';
+      $pathcontador = './log/contador';
+      $pathvisitas = './log/visitas';
       $dia = date("d");
       $mes = date("m");
       $ano = date("Y");
