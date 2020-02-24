@@ -68,10 +68,16 @@
       $dia = date("d");
       $mes = date("m");
       $ano = date("Y");
-      $hora = date("H");
-      $hora = $hora - 3; // ajustar o horário de verão
+      $hora = date("H");      
       $min = date("i");
-      $data = $dia . "-" . $mes . "-" . $ano . "_" . $hora . ":" . $min;
+      function ajustaHora($hora,$fuso){
+        $hora = $hora - $fuso; // ajustar o horário de verão
+        if($hora < 0){
+          $hora = $hora + 24;
+        }
+        return $hora;
+      }
+      $data = $dia . "-" . $mes . "-" . $ano . "_" . ajustaHora($hora,3) . ":" . $min;
       function ler($path)
       {
         $arquivo = fopen($path, 'r');
