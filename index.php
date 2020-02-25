@@ -63,21 +63,9 @@
       <hr class="star-light">
       <h2 class="font-weight-light mb-0">Web Developer - Programador - Professor</h2><br><br>
       <?php
+      include './testes/php/date.php';
       $pathcontador = './log/contador';
-      $pathvisitas = './log/visitas';
-      $dia = date("d");
-      $mes = date("m");
-      $ano = date("Y");
-      $hora = date("H");      
-      $min = date("i");
-      function ajustaHora($hora,$fuso){
-        $hora = $hora - $fuso; // ajustar o horário de verão
-        if($hora < 0){
-          $hora = $hora + 24;
-        }
-        return $hora;
-      }
-      $data = $dia . "-" . $mes . "-" . $ano . "_" . ajustaHora($hora,3) . ":" . $min;
+      $pathvisitas = './log/visitas';      
       function ler($path)
       {
         $arquivo = fopen($path, 'r');
@@ -95,7 +83,7 @@
       $n = (int) ler($pathcontador);
       $n++;
       escrever($pathcontador, $n, 'w');
-      escrever($pathvisitas, $data . " : " . $_SERVER['REMOTE_ADDR'], 'a+');
+      escrever($pathvisitas, _date("d-m-Y, H:i:s", 'America/Sao_Paulo') . " : " . $_SERVER['REMOTE_ADDR'], 'a+');
       ?>
     </div>
   </header>
