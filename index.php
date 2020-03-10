@@ -442,7 +442,7 @@
             <ul class="listas">
               <?php
               $li = 17;
-              $lf = 31;
+              $lf = 32;
               $i = 1;
               $arquivo = fopen('testes/php/index.php', 'r');
               if ($arquivo == false) {
