@@ -114,7 +114,7 @@
                 <i class="fas fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/logo-css3.png" alt="">
+            <img class="img-fluid" src="img/portfolio/logo-javascript.png" alt="">
           </a>
         </div>
 
@@ -128,7 +128,7 @@
                 <i class="fas fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/logo-javascript.png" alt="">
+            <img class="img-fluid" src="img/portfolio/logo-php.png" alt="">
           </a>
         </div>
 
@@ -141,7 +141,7 @@
                 <i class="fas fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/logo-php.png" alt="">
+            <img class="img-fluid" src="img/portfolio/logo-java.png" alt="">
           </a>
         </div>
 
@@ -331,10 +331,13 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <hr class="star-dark mb-5"><a target="_blank" href="testes/htmlcss/html5/">
-              <img class="fig-listas" src="img/portfolio/logo-html5.png" alt="">
-              <h3 class="mb-5">Exemplo</h3>
-            </a>
+
+            <hr class="star-dark mb-5">
+            <img class="fig-listas" src="img/portfolio/logo-html5.png" title="HTML5 & CSS3"><br><br>
+            <br><br>
+            <a href="testes/htmlcss/html5/" target="_blank"><h4 class="mb-5">HTML5</h4></a>
+            <a href="testes/htmlcss/css3/" target="_blank"><h4 class="mb-5">CSS3</h4></a>
+            
 
           </div>
         </div>
@@ -342,30 +345,8 @@
     </div>
   </div>
 
-
-  <!-- Portfolio Modal 2 -->
+  <!-- Portfolio Modal 2 ***************** JAVASCRIPT ********************-->
   <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-
-            <hr class="star-dark mb-5"><a target="_blank" href="testes/htmlcss/css3/">
-              <img class="fig-listas" src="img/portfolio/logo-css3.png" alt="">
-              <h3 class="mb-5">Exemplo</h3>
-            </a>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 3 ***************** JAVASCRIPT ********************-->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
     <div class="portfolio-modal-dialog bg-white">
       <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
         <i class="fa fa-3x fa-times"></i>
@@ -426,8 +407,8 @@
       </div>
     </div>
   </div>
-  <!-- Portfolio Modal 4 ***************** PHP ************************-->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+  <!-- Portfolio Modal 3 ***************** PHP ************************-->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
     <div class="portfolio-modal-dialog bg-white">
       <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
         <i class="fa fa-3x fa-times"></i>
@@ -471,6 +452,28 @@
     </div>
   </div>
 
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+
+            <hr class="star-dark mb-5">
+            <img class="fig-listas" src="img/portfolio/logo-java.png" alt="">
+            <p class="mb-5"><a href="https://github.com/evertonmessias/java" target="_blank">
+            <h4>Exemplos</h4></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <!-- Portfolio Modal 5 -->
   <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
     <div class="portfolio-modal-dialog bg-white">
@@ -483,7 +486,8 @@
 
             <hr class="star-dark mb-5">
             <img class="fig-listas" src="img/portfolio/logo-linux.png" alt="">
-            <p class="mb-5">*** em construção ***</p>
+            <p class="mb-5"><a href="https://github.com/evertonmessias/shell" target="_blank">
+            <h4>Exemplos</h4></a></p>
 
           </div>
         </div>
@@ -503,10 +507,8 @@
 
             <hr class="star-dark mb-5">
             <img class="fig-listas" src="img/portfolio/logo-c.png" alt=""><br><br>
-
-            <ul class="listas listac">
-
-              <li><a href="https://www.youtube.com/playlist?list=PL8iN9FQ7_jt4DJbeQqv--jpTy-2gTA3Cp" target="_blank">aulas-em-video</a></li>
+            <p class="mb-5"><a href="https://github.com/evertonmessias/c" target="_blank">
+            <h4>Exemplos</h4></a></p>
 
             </ul>
 
@@ -577,6 +579,7 @@
       </div>
     </div>
   </div>
+  
 
 
 
