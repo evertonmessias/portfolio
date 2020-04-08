@@ -385,6 +385,10 @@ img.fig-eu {
     height: 250px;
 }
 
+img.logoeverton{
+    width: 150px;
+}
+
 ul.listas {
     list-style: none;
     display: block;
